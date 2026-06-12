@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* Exact Colors Sampled Verbatim from "ChatGPT Image Jun 2, 2026, 04_12_30 PM_2.png" */
+  --color-brand-cream: #FDFBF7;       /* Main page background */
+  --color-brand-darkGreen: #10221C;   /* Deep editorial panels & typography */
+  --color-brand-coral: #DE5367;       /* High-visibility primary action buttons */
+  --color-brand-pinkHighlight: #FDE8EB; /* Background container highlights */
+  --color-brand-gold: #C5A880;        /* Star ratings and system numbers */
+  --color-brand-charcoal: #2A2C2B;    /* High-contrast subheadings & paragraph copy */
+
+  /* Font Configuration */
+  --font-serif: var(--font-playfair), serif;
+  --font-sans: var(--font-inter), sans-serif;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-brand-cream text-brand-charcoal font-sans antialiased;
+  }
+}
