@@ -7,6 +7,7 @@ import CaseStudies from "@/components/CaseStudies";
 import Qualification from "@/components/Qualification";
 import OfferGrid from "@/components/OfferGrid";
 import Manifesto from "@/components/Manifesto";
+import ClosingCTA from "@/components/ClosingCTA";
 import CTA from "@/components/CTA";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         <Qualification />
         <OfferGrid />
         <Manifesto />
+        <ClosingCTA />
         <CTA />
       </main>
     </>
